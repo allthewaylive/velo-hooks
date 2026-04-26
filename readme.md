@@ -75,7 +75,7 @@ In the above example we see the use of multiple hooks and binds
 * `onClick` events are bound to functions who update the `counter` state 
 * `bindShowHide` is used to bind the `hidden` property, `show` and `hide` functions to a boolean state and to animations. Alternatively, we could have used `createEffect` for the same result, if a bit more verbose code.
 * 
-* `bindbindCollapseExpand` is used to bind the `collapsed` property, `expand` and `collapse` functions to a boolean state.
+* `bindCollapseExpand` is used to bind the `collapsed` property, `expand` and `collapse` functions to a boolean state.
 * `bindEnabled` is used to bind the `enabled` property, `enable` and `disable` functions to a boolean state.
 * `bindRepeater` is used to bind a repeater `data` property, `onItemReady` and `onItemRemoved` to state management per item
 
@@ -94,6 +94,8 @@ In the above example we see the use of multiple hooks and binds
   * [bindCollapseExpand](#bindCollapseExpand)
   * [bindEnabled](#bindEnabled)
   * [bindStorage](#bindStorage)
+  * [bindInput](#bindInput)
+  * [bindText](#bindText)
 * Advanced Computation Control
   * [Reactive](#Reactive)
 
@@ -472,6 +474,53 @@ declare function bindStorage<T>(
 * `setState` - the state setter to update on first load if data exists on the storage engine
 * `isMutable` - should the read data be a `mutableObject`?
 
+## <a name="bindInput">bindInput</a>
+
+Two-way binding between an input element's `value` and a string state.
+When the state changes the input value updates; when the user types, the state updates.
+
+```typescript
+bind($w, refs => {
+  let [query, setQuery] = createState('');
+  bindInput(refs.searchInput, query, setQuery);
+  refs.submitButton.onClick(() => console.log('search for:', query()));
+})
+```
+
+Formally:
+
+```typescript
+declare function bindInput(
+  el: RefComponent<$w.TextInputMixin>,
+  get: Getter<string>,
+  set: Setter<string>
+): void
+```
+
+---
+
+## <a name="bindText">bindText</a>
+
+One-way binding from a string state to a text element. Equivalent to `refs.el.text = get` but more explicit at call sites.
+
+```typescript
+bind($w, refs => {
+  let [name, setName] = createState('World');
+  bindText(refs.greeting, createMemo(() => `Hello, ${name()}!`));
+})
+```
+
+Formally:
+
+```typescript
+declare function bindText(
+  el: RefComponent<$w.TextMixin>,
+  get: Getter<string>
+): void
+```
+
+---
+
 ## <a name="reactive">Reactive</a>
 
 `bind` returns an instance of `Reactive` [Jay Reactive](https://www.npmjs.com/package/jay-reactive#reactive-class) which exposes the lower level APIs and gives more control over
@@ -485,8 +534,8 @@ $w.onReady(() => {
       let [state1, setState1] = createState(1);
       let [state2, setState2] = createState(1);
       let [state3, setState3] = createState(1);
-      let double = createMemo(() => _ * 2);
-      let plus10 = createMemo(() => _ + 10);
+      let double = createMemo(() => state1() * 2);
+      let plus10 = createMemo(() => state1() + 10);
       let sum = createMemo(() => state1() + state2() + state3());
       refs.button1.onClick(() => {
          setState1(10);
