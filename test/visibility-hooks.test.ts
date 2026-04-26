@@ -1,7 +1,7 @@
 import {beforeEach, describe, expect, it} from '@jest/globals'
 import {Button, make_$w, Text} from "./$w-stab";
 import {$W, bind, createMemo, createState} from "../lib/hooks-internal";
-import {bindShowHide} from "../lib/visiblity-hooks";
+import {bindShowHide} from "../lib/visibility-hooks";
 
 
 describe("visibility hooks", () => {
