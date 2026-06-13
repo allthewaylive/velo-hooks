@@ -67,6 +67,21 @@ For every "made £X in a day" story, there are piles of:
 
 **Talk track:** "We don't see the failures because nobody posts them. The honest base rate for a cold start is closer to zero than to riches."
 
+> On the slide these are shown as real quoted posts with their source (Indie Hackers) — pulled from the actual research run, not invented.
+
+---
+
+## Slide 6b — Reality check: even when you DO sell, the cash is days away
+Real payout timelines (each card cites its source on the slide):
+- **Stripe** — first payout typically **7–14 days** after first charge.
+- **Gumroad** — **7-day hold**, then payouts only **every Friday**.
+- **Lemon Squeezy** — held **13 days**, paid only on the 14th & 28th.
+- **PayPal** — new sellers held **up to 21 days**.
+
+> "Go live in 24h" is realistic. "Money in the bank in 24h" is not.
+
+**Talk track:** "Here's the bit nobody mentions. Say you beat the odds and someone pays you today. You still can't spend it. Every payment processor holds a new seller's first payout for days — Stripe a week or two, PayPal up to three weeks. So even the dream scenario isn't '24-hour money.' It's a useful reality check on the whole promise."
+
 ---
 
 ## Slide 7 — The real equation
