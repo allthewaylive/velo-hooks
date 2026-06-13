@@ -1,10 +1,14 @@
 # Lesson: Why AI Alone Won't Make You Money in 24 Hours
 
 **Course:** AI literacy for business owners (Wenta / BIF)
-**Format:** ~20–25 min talk + discussion. 14 slides.
+**Format:** ~20–25 min talk + discussion. 16 slides.
 **Big idea:** AI is the most powerful *accelerant* a small business has ever had — but it accelerates the *building*, not the *selling*. Revenue still comes from distribution and trust, and those can't be generated overnight. This lesson uses a real experiment to make that land.
 
 > Teaching note: the goal is NOT to deflate people. It's to redirect their energy from "what can AI make me?" to "where do I already have trust I can sell into — and how do I use AI to do the rest faster?" End on momentum, not gloom.
+
+**Structure (two acts):**
+- **Act 1 — Why AI alone won't do it** (slides 2–9): the hype → we tested it → AI was brilliant → the evidence it's not enough → the framework that explains why.
+- **Act 2 — The honest, hopeful reality** (slides 10–16): I had a head start too → and you can build yours → what you *can* do today → how to use AI well → takeaways → exercise → close.
 
 ---
 
@@ -57,31 +61,6 @@ Every "overnight success" we found had a **hidden head start.**
 
 ---
 
-## Slide 5b — Full disclosure: so did I
-Honesty, applied to me. When I ran this experiment I wasn't starting from zero:
-- **Products already on sale** — live apps, built long before today.
-- A studio, a brand, a **warm network** — a route to market most people don't have.
-- Accounts, payments, tooling, skills — all set up **years ago**.
-- The AI plugged into all of that. It was never a **"day-1" setup**.
-
-> The AI accelerated a business that already existed. That's the honest version.
-
-**Talk track:** "I have to be straight with you, because this is the whole point. When I did this, I had a head start too. I already had products live and on sale. I've got a studio, a brand, a network — a route to market. None of that was built today; it took years. The AI didn't conjure a business from nothing — it accelerated one I already had. So when you watch me do this fast, remember you're seeing the last 1% on top of a foundation. The good news: you can build that foundation too. That's what this course is for."
-
----
-
-## Slide 5c — And even my shortcut isn't instant
-The "quick win" myth, in my own case:
-- I *could* sell **Wix Studio templates** — a genuine route to market for me.
-- But that route **took time to set up**: account, store, brand, process.
-- And building one good template in Wix Studio is **not instant**.
-
-> "Fast" still meant days of real work — on top of years of foundation.
-
-**Talk track:** "Take my fastest option — selling Wix templates. Sounds like easy money, right? But setting up that whole route — the account, the storefront, the brand, the process — took real time. And even now, sitting down to build one genuinely good template in Wix Studio isn't a 10-minute job. So even the shortcut isn't a shortcut to *instant*. It's faster because the groundwork is done — not because the work disappeared."
-
----
-
 ## Slide 6 — The myth, in data
 For every "made £X in a day" story, there are piles of:
 - "Built it in 9 days, launched, **0 signups.**"
@@ -90,13 +69,13 @@ For every "made £X in a day" story, there are piles of:
 
 **Survivorship bias:** you only ever see the winners.
 
-**Talk track:** "We don't see the failures because nobody posts them. The honest base rate for a cold start is closer to zero than to riches."
-
 > On the slide these are shown as real quoted posts with their source (Indie Hackers) — pulled from the actual research run, not invented.
+
+**Talk track:** "We don't see the failures because nobody posts them. The honest base rate for a cold start is closer to zero than to riches."
 
 ---
 
-## Slide 6b — Reality check: even when you DO sell, the cash is days away
+## Slide 7 — Reality check: even when you DO sell, the cash is days away
 Real payout timelines (each card cites its source on the slide):
 - **Stripe** — first payout typically **7–14 days** after first charge.
 - **Gumroad** — **7-day hold**, then payouts only **every Friday**.
@@ -105,11 +84,11 @@ Real payout timelines (each card cites its source on the slide):
 
 > "Go live in 24h" is realistic. "Money in the bank in 24h" is not.
 
-**Talk track:** "Here's the bit nobody mentions. Say you beat the odds and someone pays you today. You still can't spend it. Every payment processor holds a new seller's first payout for days — Stripe a week or two, PayPal up to three weeks. So even the dream scenario isn't '24-hour money.' It's a useful reality check on the whole promise."
+**Talk track:** "Here's the bit nobody mentions. Say you beat the odds and someone pays you today. You still can't spend it. Every payment processor holds a new seller's first payout for days — Stripe a week or two, PayPal up to three weeks. So even the dream scenario isn't '24-hour money.'"
 
 ---
 
-## Slide 7 — The real equation
+## Slide 8 — The real equation
 # Revenue = Product × Distribution × Trust
 
 - AI is a rocket on **Product**.
@@ -120,29 +99,54 @@ Real payout timelines (each card cites its source on the slide):
 
 ---
 
-## Slide 8 — What AI genuinely compresses
-The "**make**" side — weeks into hours:
+## Slide 9 — What AI can and can't do
+Two columns, side by side:
+
+**✓ AI compresses (weeks → hours) — the "make" side**
 - Research & market analysis
 - Building the product / site / tool
 - Writing content, emails, listings
 - Designs and graphics
 
-**Talk track:** "Everything on the *creation* side, AI collapses dramatically. This is real leverage — don't underrate it."
-
----
-
-## Slide 9 — What AI can't shortcut
-The "**sell**" side — still takes time and you:
+**✗ AI can't shortcut (still takes time) — the "sell" side**
 - An audience that knows you exist
-- **Trust** that you'll deliver
-- Relationships and reputation
-- Real, proven demand (people who'll pay)
+- Trust that you'll deliver
+- Relationships & reputation
+- Real, proven demand
 
-**Talk track:** "These compound slowly, through showing up. There's no prompt for 'make 5,000 people trust me by Tuesday.'"
+**Talk track:** "On the left, everything AI collapses — the *making*. Real leverage, don't underrate it. On the right, everything it can't — the *selling*. These compound slowly, through showing up. There's no prompt for 'make 5,000 people trust me by Tuesday.'"
+
+---
+---
+
+# ACT 2 — The honest, hopeful turn
+
+## Slide 10 — Full disclosure: I had a head start too
+When I ran this experiment, I wasn't starting from zero either:
+- **Products already on sale** — live apps, built long before today.
+- A studio, a brand, a **warm network** — a route to market most people don't have.
+- Accounts, payments, tooling, skills — all set up **years ago**.
+- The AI plugged into all of that. It was never a **"day-1" setup**.
+
+> The AI accelerated a business that already existed — and the good news is **you can build that foundation too.**
+
+**Talk track:** "I have to be straight with you, because this is the whole point. When I did this, I had a head start too. Products already live and on sale. A studio, a brand, a network — a route to market. None of it built today; it took years. The AI didn't conjure a business from nothing — it accelerated one I already had. So when you watch me move fast, you're seeing the last 1% on top of a foundation. The good news: you can build that foundation too. That's what this course is for."
 
 ---
 
-## Slide 10 — So what CAN you do in 24 hours?
+## Slide 11 — And even my shortcut isn't instant
+The "quick win" myth, in my own case:
+- I *could* sell **Wix Studio templates** — a genuine route to market for me.
+- But that route **took time to set up**: account, store, brand, process.
+- And building one good template in Wix Studio is **not instant**.
+
+> "Fast" still meant days of real work — on top of years of foundation. So what *can* you realistically do today?
+
+**Talk track:** "Take my fastest option — selling Wix templates. Sounds like easy money, right? But setting up that whole route took real time, and even now, building one genuinely good template isn't a 10-minute job. The shortcut is faster because the groundwork is done — not because the work disappeared. So let's get practical: what *can* you actually do in a day?"
+
+---
+
+## Slide 12 — So what CAN you do in 24 hours?
 Aim to **go live**, not to "get rich." The fastest real path:
 
 1. **Warm** — sell to people who already trust you (past clients, network).
@@ -155,7 +159,7 @@ Aim to **go live**, not to "get rich." The fastest real path:
 
 ---
 
-## Slide 11 — The smart way to use AI
+## Slide 13 — The smart way to use AI
 Point AI at the **boring, repeatable work** so your distribution compounds while you sleep:
 - Let it **research** the market and the offer.
 - Let it **build** the thing fast.
@@ -165,7 +169,7 @@ Point AI at the **boring, repeatable work** so your distribution compounds while
 
 ---
 
-## Slide 12 — The lesson
+## Slide 14 — The lesson
 1. AI is an **accelerant, not a market.** It multiplies what you have; it doesn't create demand.
 2. **Speed of building ≠ speed of selling.** Don't confuse a finished product with a paying customer.
 3. **Your audience & network are the real asset.** Start building them *before* you need them.
@@ -175,7 +179,7 @@ Point AI at the **boring, repeatable work** so your distribution compounds while
 
 ---
 
-## Slide 13 — Your turn (exercise)
+## Slide 15 — Your turn (exercise)
 Don't ask AI *"what can I sell?"* Ask:
 
 > *"Here's who already trusts me [list them]. Here's what I'm good at. Design one fixed-price offer I could message them today, and write the message."*
@@ -186,7 +190,7 @@ Bring the offer to the next session.
 
 ---
 
-## Slide 14 — Close
+## Slide 16 — Close
 **AI gives you superpowers on the build.
 The business is still yours to earn.**
 
