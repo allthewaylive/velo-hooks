@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why AI Alone Won't Make You Money in 24 Hours</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --muted:#6b6b6b; --gold:#B8893C; --gold-soft:#f3e8d6;
+    --bg:#faf8f5; --card:#ffffff; --line:#e7e2da;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg);
+    -webkit-font-smoothing:antialiased; overflow:hidden;
+  }
+  .deck{height:100vh;width:100vw;position:relative}
+  .slide{
+    position:absolute; inset:0; display:none;
+    flex-direction:column; justify-content:center;
+    padding:8vh 10vw; opacity:0; transition:opacity .25s ease;
+  }
+  .slide.active{display:flex; opacity:1}
+  .kicker{
+    text-transform:uppercase; letter-spacing:.18em; font-size:.8rem;
+    font-weight:700; color:var(--gold); margin-bottom:1.2rem;
+  }
+  h1{font-size:clamp(2.2rem,5.2vw,4.2rem); line-height:1.05; font-weight:800; letter-spacing:-.02em}
+  h2{font-size:clamp(1.8rem,3.8vw,3rem); line-height:1.1; font-weight:800; letter-spacing:-.015em; margin-bottom:2rem}
+  .sub{font-size:clamp(1.1rem,1.8vw,1.5rem); color:var(--muted); margin-top:1.6rem; max-width:50ch}
+  ul{list-style:none; display:flex; flex-direction:column; gap:1.1rem; max-width:60ch}
+  li{font-size:clamp(1.05rem,1.9vw,1.6rem); line-height:1.35; padding-left:1.6rem; position:relative}
+  li::before{content:""; position:absolute; left:0; top:.6em; width:.6rem; height:.6rem; background:var(--gold); border-radius:50%}
+  .big-eq{font-size:clamp(1.8rem,4.4vw,3.4rem); font-weight:800; letter-spacing:-.01em; line-height:1.3; margin:1rem 0 2.2rem}
+  .big-eq b{color:var(--gold)}
+  .stat{color:var(--gold); font-weight:800}
+  .twocol{display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start}
+  .panel{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:2rem 2.2rem}
+  .panel h3{font-size:1.15rem; text-transform:uppercase; letter-spacing:.08em; margin-bottom:1.2rem}
+  .panel.make h3{color:var(--gold)}
+  .panel.sell h3{color:#a23b3b}
+  .panel ul{gap:.7rem}
+  .panel li{font-size:clamp(.95rem,1.4vw,1.2rem)}
+  .quote{font-size:clamp(1.3rem,2.6vw,2.1rem); font-weight:600; line-height:1.3; border-left:4px solid var(--gold); padding-left:1.4rem; max-width:55ch}
+  .end h2{font-size:clamp(2rem,4.6vw,3.6rem)}
+  .brand{margin-top:auto; padding-top:2rem; color:var(--muted); font-size:.95rem; letter-spacing:.02em}
+  /* chrome */
+  .hud{position:fixed; bottom:18px; right:24px; font-size:.8rem; color:var(--muted); z-index:10; user-select:none}
+  .progress{position:fixed; top:0; left:0; height:4px; background:var(--gold); width:0; transition:width .25s ease; z-index:10}
+  .hint{position:fixed; bottom:18px; left:24px; font-size:.78rem; color:var(--muted); z-index:10}
+  .num{position:fixed; top:18px; left:24px; font-size:.78rem; color:var(--muted); letter-spacing:.12em; z-index:10}
+
+  /* PRINT — one slide per page for PDF export */
+  @media print{
+    @page{size:1280px 720px; margin:0}
+    body{overflow:visible; background:#fff}
+    .deck{height:auto}
+    .slide{display:flex!important; opacity:1!important; position:relative; inset:auto;
+      width:1280px; height:720px; page-break-after:always; padding:70px 90px}
+    .hud,.hint,.num,.progress{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="num" id="num"></div>
+<div class="deck" id="deck">
+
+  <!-- 1 -->
+  <section class="slide active">
+    <div class="kicker">A lesson for business owners</div>
+    <h1>Why AI Alone Won't Make<br>You Money in 24 Hours</h1>
+    <p class="sub">A real experiment — and what it teaches every business owner about using AI.</p>
+    <div class="brand">Digital Vision — practical AI for real businesses</div>
+  </section>
+
+  <!-- 2 -->
+  <section class="slide">
+    <div class="kicker">The hype</div>
+    <h2>The promise we've all been sold</h2>
+    <ul>
+      <li>"Spin up an AI app this weekend → passive income."</li>
+      <li>"No skills, no audience, no budget — let AI do it all."</li>
+      <li>It's everywhere because it <b>sells courses</b>, not because it's true.</li>
+    </ul>
+  </section>
+
+  <!-- 3 -->
+  <section class="slide">
+    <div class="kicker">The experiment</div>
+    <h2>So we put it to the test</h2>
+    <p class="quote">"Research a way to make a product that generates revenue, in 24 hours. £0 budget, no audience."</p>
+    <p class="sub">We gave that brief to a top AI — and let it run real research and start building.</p>
+  </section>
+
+  <!-- 4 -->
+  <section class="slide">
+    <div class="kicker">The good news</div>
+    <h2>What the AI did brilliantly</h2>
+    <ul>
+      <li>Ran <span class="stat">5 research streams</span> in parallel, read ~30 sources.</li>
+      <li>Compared product types, sales channels and payment tools.</li>
+      <li>Found real case studies and the fastest path to go live.</li>
+      <li>Started building the actual product — <b>in minutes</b>.</li>
+    </ul>
+    <p class="sub">For research and building, AI is genuinely superhuman. Hold that thought.</p>
+  </section>
+
+  <!-- 5 -->
+  <section class="slide">
+    <div class="kicker">The catch</div>
+    <h2>Then we hit the same wall, every time</h2>
+    <ul>
+      <li>Every "overnight success" had a <b>hidden head start</b>.</li>
+      <li>One famous builder sold his product <span class="stat">90 minutes</span> after launch…</li>
+      <li>…to an audience of <span class="stat">~500,000 followers</span> built over 10 years.</li>
+      <li>The "overnight" success actually took a <b>decade</b>.</li>
+    </ul>
+  </section>
+
+  <!-- 6 -->
+  <section class="slide">
+    <div class="kicker">Survivorship bias</div>
+    <h2>The myth, in data</h2>
+    <ul>
+      <li>"Built it in 9 days, launched → <span class="stat">0 signups</span>."</li>
+      <li>"Live for 3 weeks → <span class="stat">0 paying customers</span>."</li>
+      <li>"400 launch visitors → <span class="stat">1 sale</span>."</li>
+      <li>You only ever see the <b>winners</b>.</li>
+    </ul>
+  </section>
+
+  <!-- 7 -->
+  <section class="slide">
+    <div class="kicker">The whole lesson on one line</div>
+    <h2>The real equation</h2>
+    <p class="big-eq">Revenue = <b>Product</b> × <b>Distribution</b> × <b>Trust</b></p>
+    <ul>
+      <li>AI is a rocket on <b>Product</b>.</li>
+      <li>It barely touches <b>Distribution</b> and <b>Trust</b>.</li>
+      <li>Multiply by zero on either — and you get <b>zero</b>.</li>
+    </ul>
+  </section>
+
+  <!-- 8 + 9 combined contrast -->
+  <section class="slide">
+    <div class="kicker">Make vs. sell</div>
+    <h2>What AI can and can't do</h2>
+    <div class="twocol">
+      <div class="panel make">
+        <h3>✓ AI compresses (weeks → hours)</h3>
+        <ul>
+          <li>Research &amp; market analysis</li>
+          <li>Building the product / site / tool</li>
+          <li>Writing content, emails, listings</li>
+          <li>Designs and graphics</li>
+        </ul>
+      </div>
+      <div class="panel sell">
+        <h3>✗ AI can't shortcut (still takes time)</h3>
+        <ul>
+          <li>An audience that knows you exist</li>
+          <li>Trust that you'll deliver</li>
+          <li>Relationships &amp; reputation</li>
+          <li>Real, proven demand</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section class="slide">
+    <div class="kicker">Aim to go live, not to "get rich"</div>
+    <h2>So what CAN you do in 24 hours?</h2>
+    <ul>
+      <li><b>Warm</b> — sell to people who already trust you (past clients, network).</li>
+      <li><b>Productised</b> — one fixed offer, one fixed price, decided in one message.</li>
+      <li><b>Pre-sell</b> — take payment on the promise before you build.</li>
+      <li>Warm leads convert <span class="stat">60–70%</span> vs. <span class="stat">5–20%</span> cold.</li>
+    </ul>
+  </section>
+
+  <!-- 11 -->
+  <section class="slide">
+    <div class="kicker">The leverage move</div>
+    <h2>The smart way to use AI</h2>
+    <ul>
+      <li>Let it <b>research</b> the market and the offer.</li>
+      <li>Let it <b>build</b> the thing fast.</li>
+      <li>Let it <b>produce your content</b> on autopilot — so your audience grows in the background.</li>
+    </ul>
+    <p class="sub">AI doesn't replace the slow work of building trust — it buys you the <b>time</b> to do it.</p>
+  </section>
+
+  <!-- 12 -->
+  <section class="slide">
+    <div class="kicker">Takeaways</div>
+    <h2>The lesson</h2>
+    <ul>
+      <li>AI is an <b>accelerant, not a market</b>.</li>
+      <li><b>Speed of building ≠ speed of selling</b>.</li>
+      <li>Your <b>audience &amp; network</b> are the real asset.</li>
+      <li><b>Sell before you build</b>.</li>
+    </ul>
+  </section>
+
+  <!-- 13 -->
+  <section class="slide">
+    <div class="kicker">Exercise</div>
+    <h2>Your turn</h2>
+    <p class="sub" style="margin-top:0">Don't ask AI <i>"what can I sell?"</i> Ask:</p>
+    <p class="quote">"Here's who already trusts me [list them]. Here's what I'm good at. Design one fixed-price offer I could message them today — and write the message."</p>
+    <p class="sub">Bring the offer to the next session.</p>
+  </section>
+
+  <!-- 14 -->
+  <section class="slide end">
+    <div class="kicker">Close</div>
+    <h2>AI gives you superpowers on the build.<br>The business is still yours to earn.</h2>
+    <p class="sub">Use the superpower for what it's good at — then go do the human part. That's still where the money is.</p>
+    <div class="brand">Digital Vision — practical AI for real businesses</div>
+  </section>
+
+</div>
+
+<div class="hint">← → / space to navigate · F for fullscreen · P then Ctrl/Cmd-P to print</div>
+<div class="hud" id="hud"></div>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  let i=0;
+  const num=document.getElementById('num');
+  const hud=document.getElementById('hud');
+  const progress=document.getElementById('progress');
+  function show(n){
+    i=Math.max(0,Math.min(slides.length-1,n));
+    slides.forEach((s,k)=>s.classList.toggle('active',k===i));
+    num.textContent=String(i+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
+    hud.textContent='Why AI Won’t Make You Money in 24h';
+    progress.style.width=((i)/(slides.length-1)*100)+'%';
+  }
+  document.addEventListener('keydown',e=>{
+    if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();show(i+1)}
+    else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}
+    else if(e.key==='Home'){show(0)} else if(e.key==='End'){show(slides.length-1)}
+    else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen()}
+  });
+  document.addEventListener('click',e=>{ if(e.clientX < window.innerWidth*0.25) show(i-1); else show(i+1); });
+  show(0);
+</script>
+</body>
+</html>
