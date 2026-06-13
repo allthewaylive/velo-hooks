@@ -57,6 +57,31 @@ Every "overnight success" we found had a **hidden head start.**
 
 ---
 
+## Slide 5b — Full disclosure: so did I
+Honesty, applied to me. When I ran this experiment I wasn't starting from zero:
+- **Products already on sale** — live apps, built long before today.
+- A studio, a brand, a **warm network** — a route to market most people don't have.
+- Accounts, payments, tooling, skills — all set up **years ago**.
+- The AI plugged into all of that. It was never a **"day-1" setup**.
+
+> The AI accelerated a business that already existed. That's the honest version.
+
+**Talk track:** "I have to be straight with you, because this is the whole point. When I did this, I had a head start too. I already had products live and on sale. I've got a studio, a brand, a network — a route to market. None of that was built today; it took years. The AI didn't conjure a business from nothing — it accelerated one I already had. So when you watch me do this fast, remember you're seeing the last 1% on top of a foundation. The good news: you can build that foundation too. That's what this course is for."
+
+---
+
+## Slide 5c — And even my shortcut isn't instant
+The "quick win" myth, in my own case:
+- I *could* sell **Wix Studio templates** — a genuine route to market for me.
+- But that route **took time to set up**: account, store, brand, process.
+- And building one good template in Wix Studio is **not instant**.
+
+> "Fast" still meant days of real work — on top of years of foundation.
+
+**Talk track:** "Take my fastest option — selling Wix templates. Sounds like easy money, right? But setting up that whole route — the account, the storefront, the brand, the process — took real time. And even now, sitting down to build one genuinely good template in Wix Studio isn't a 10-minute job. So even the shortcut isn't a shortcut to *instant*. It's faster because the groundwork is done — not because the work disappeared."
+
+---
+
 ## Slide 6 — The myth, in data
 For every "made £X in a day" story, there are piles of:
 - "Built it in 9 days, launched, **0 signups.**"
