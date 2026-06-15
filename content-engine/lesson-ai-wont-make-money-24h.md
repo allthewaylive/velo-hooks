@@ -33,20 +33,22 @@
 We gave a top AI a blunt brief:
 > *"Research a way to make a product that generates revenue, in 24 hours. £0 budget, no audience."*
 
-And we let it run — real research, real tools, real build.
+And we let it run — real research, real sources, a real recommendation.
 
-**Talk track:** "Not a thought experiment. We let the AI do proper research — dozens of sources — and even start building. Here's the honest result."
+**Talk track:** "Not a thought experiment. We let the AI do proper research — dozens of sources — and produce a real, cited recommendation. Here's the honest result."
 
 ---
 
 ## Slide 4 — What the AI did brilliantly
 In **minutes**, it:
-- Ran 5 research streams in parallel, read ~30 sources.
+- Ran 5 research streams in parallel, read dozens of sources.
 - Compared product types, sales channels, payment tools.
 - Found real case studies and the fastest go-live path.
-- Started building the actual product.
+- Delivered a cited, end-to-end recommendation — ready to act on.
 
-**Talk track:** "This is the grain of truth. For research and building, AI is genuinely superhuman. Work that used to take a consultant a week took minutes. Hold that thought."
+> The 5 research streams (for reference): (1) product types, (2) distribution channels, (3) payment collection, (4) 24–72h first-revenue case studies, (5) the agency/warm-network angle.
+
+**Talk track:** "This is the grain of truth. For research and drafting, AI is genuinely superhuman. Work that used to take a consultant a week took minutes. Hold that thought."
 
 ---
 
