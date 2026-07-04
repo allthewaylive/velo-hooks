@@ -1,0 +1,17 @@
+{
+  "name": "live-frame-meta-glasses",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Update your Wix site by voice from Ray-Ban Meta glasses, via a WhatsApp bridge. Proof-of-concept built on the velo-hooks reactive pattern.",
+  "keywords": [
+    "wix",
+    "velo",
+    "meta-glasses",
+    "ray-ban-meta",
+    "whatsapp",
+    "velo-hooks"
+  ],
+  "dependencies": {
+    "velo-hooks": "^1.0.1"
+  }
+}
